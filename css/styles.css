@@ -164,28 +164,38 @@ button {
 
     .items-container {
         position: absolute;
-        left: 517px;
+        left: 717px;
         top: 170px;
         padding-top: 20px;
     }
 
     .shipping-container {
         position: relative;
-        width: 300px;
     }
 
-hr {
-    position: absolute;
+    hr {
+        position: absolute;
         left: 50px;
         top: 30px;
         z-index: 1;
-}
+    }
 
-.hr-two {
+    .hr-two {
         position: absolute;
         left: 50px;
         top: 0px;
         z-index: 1;
-}
+    }
 
+    .form-container-contact,
+    .form-container-shipping,
+    .country-container,
+    .placeholders.country,
+    .save {
+        margin-left: 200px;
+    }
+
+    .country {
+        width: 350px;
+    }
 }
