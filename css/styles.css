@@ -171,20 +171,18 @@ button {
 
     .shipping-container {
         position: relative;
+        margin-bottom: 20px;
     }
 
     hr {
         position: absolute;
-        left: 50px;
+        left: 20px;
         top: 30px;
         z-index: 1;
     }
 
     .hr-two {
-        position: absolute;
-        left: 50px;
-        top: 0px;
-        z-index: 1;
+        display: none;
     }
 
     .form-container-contact,
@@ -195,7 +193,11 @@ button {
         margin-left: 200px;
     }
 
-    .country {
-        width: 350px;
+    button {
+        margin-left: 400px;
+    }
+
+    .placeholders.country.postal {
+        margin-left: 0px;
     }
 }
